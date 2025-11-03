@@ -1,12 +1,6 @@
 package com.research.research_assistant;
-
-import lombok.Data;
-
-
 public class ResearchRequest {
-
     private String content;
-    private String operation;
 
     public String getContent() {
         return content;
@@ -23,4 +17,6 @@ public class ResearchRequest {
     public void setOperation(String operation) {
         this.operation = operation;
     }
+
+    private String operation;
 }
